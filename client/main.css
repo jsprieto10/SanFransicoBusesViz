@@ -19,10 +19,16 @@ body {
   }
    
   .container {
-    max-width: 600px;
+    max-width: 80%;
     margin: 0 auto;
     min-height: 100%;
     background: white;
+  }
+
+  .wrapper{
+    max-width: 80%;
+    margin: 0 auto;
+    min-height: 100%;
   }
    
   header {
