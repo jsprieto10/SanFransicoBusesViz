@@ -34,7 +34,7 @@ class App extends React.Component {
 
   componentDidMount() {
     fetch(
-      "http://webservices.nextbus.com/service/publicJSONFeed?command=vehicleLocations&a=sf-muni"
+      "https://jsprieto10.github.io/publicJSONFeed.json"
     )
       .then(function(response) {
         return response.json();
